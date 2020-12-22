@@ -1,0 +1,179 @@
+html, body {
+    background-color: white;
+    color:white;
+    font-family: 'Staatliches', cursive;
+    letter-spacing: 3px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; 
+}
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
+  background-color: #ed5565;
+}
+h1 {
+  padding-top: 10px;
+  font-size: 10.0em;
+}
+h2 {
+  font-size: 3.0em;
+  color: white;
+}
+h3 {
+  font-size: 2.5em;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+a:hover {
+  color: #ff2a4a;
+}
+.banner {
+  background:url("https://images3.alphacoders.com/823/thumb-1920-82317.jpg");
+  background-size: cover;
+  height: 1000px;
+}
+
+.skills {
+  background:url("https://images3.alphacoders.com/823/thumb-1920-82317.jpg");
+  background-size: cover;
+  min-height: 100%;
+  padding-bottom: 40px;
+  padding-top:40px;
+}
+.ex-timeline {
+  background:url("https://webdevtrick.com/wp-content/uploads/black-background.jpg");
+  background-size: cover;
+  min-height: 100%;
+  padding-top: 20px;
+  padding-bottom: 60px;
+}
+.portfolios {
+  padding-top: 5px;
+  margin-top: -20px;
+  background: #212121;
+}
+.title {
+  padding-bottom: 20px;
+  width: 1100px;
+  margin-right: auto;
+  margin-left: auto;
+  position: relative;
+  top: 250px;
+}
+.titles {
+  width: 790px;
+  border-color: rgb(12, 5, 5);
+  border-width: 5px;
+  display: block;
+  margin:0 auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+#title {
+  font-size: 2.5em;
+  padding-bottom: 15px;
+}
+ 
+#skills-label {
+  font-size:2.0em; 
+  padding-bottom:30px;
+}
+.project-img {
+  height: 500px;
+  width: 450px;
+}
+#projectTitle {
+  text-align: center; 
+  font-size: 2.8em;
+  cursor: pointer;
+  color: #212121;
+}
+.skill {
+  background-color: white;
+  color: #212121;
+  font-size: 1.5rem;
+  opacity: .8;
+  padding: 15px;
+  margin: 5px;
+  border-radius: 15px;
+  position: relative;
+  display: inline-block;
+}
+.small-intro {
+  background: gray;
+  padding-top: 60px;
+}
+#small-intro {
+  text-align: center;
+  width: 70%;
+  font-size: 1.2em;
+  display:block;
+  margin: 0 auto;
+  color: #212121;
+  padding-bottom: 60px;
+}
+.well {
+  min-height: 300px;
+}
+.border {
+  border-style: solid;
+  border-width: 3px;
+  border-color: #131111; 
+}
+.resume {
+  top: 280px;
+  position: relative;
+  font-size: 60%;
+  width: 140px;
+  display: inline-block;
+  margin-left: 15px;
+  cursor: pointer; 
+  padding-bottom: 8px;
+}
+.contact {
+  top: 280px;
+  position: relative;
+  font-size: 60%;
+  width: 140px;
+  display: inline-block;
+  cursor: pointer; 
+  padding-bottom: 8px;
+}
+#qualif {
+  font-size: 3em;
+  color:#f1eeef;
+}
+footer {
+  background-color: #ff2a4a;
+  color: white;
+  line-height: 20px;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  width: 100%;
+  bottom: 0;
+  position: relative;
+  text-align: center;
+}
+.timeline {
+  position: relative;
+  max-width: 50%;
+  list-style-type: none;
+  margin: 0 auto;
+  display: flex;
+  left: 35%;
+  padding-top: 2%;
+}
+.timeline:before {
+  background: #1da1f2;
+  content: '';
+  position: absolute;
+  top: 0;
+  width: 5px;
+  height: 100%;
+  left: 10px;
+}
+.timeline-event {
+  position: relative;
+}
